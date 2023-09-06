@@ -1,0 +1,42 @@
+
+.pricing-plan{
+    background-color:lightgrey;
+    max-width: 400px;
+    text-align: center;
+    flex: 1;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+  }
+
+@media (max-width: 1250px) {
+    .pricing-container{
+         flex-direction: column; 
+         height: 100%;
+    }  
+}
+
+.plan-title{
+    font-weight: bold;
+}
+
+.plan-price{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.plan-button{
+    background-color: orange;
+    border: orange;
+    color: white;
+    max-width: 100px;
+}
+
+.plan-features {
+    list-style: none;
+}
